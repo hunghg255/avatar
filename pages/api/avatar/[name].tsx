@@ -54,7 +54,7 @@ export default async function (req: NextRequest) {
         {fileType === "svg" && text && (
           <text
             x="50%"
-            y={text.length > 1 ? "54%" : "55.5%"}
+            y={text.length === 1 ? "49%" : "52%"}
             alignmentBaseline="central"
             dominantBaseline="central"
             textAnchor="middle"
