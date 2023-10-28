@@ -1,0 +1,7 @@
+node_modules
+*.log
+test.html
+
+.next
+.DS_Store
+.vercel
