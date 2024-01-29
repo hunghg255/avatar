@@ -1,12 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   swcMinify: true,
   async rewrites() {
     return [
       {
-        source: '/:path*',
+        source: '/avatar/:path*',
         destination: '/api/avatar/:path*',
+      },
+      {
+        source: '/qr/:path*',
+        destination: '/api/qr/:path*',
       },
     ];
   },

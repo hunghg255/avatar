@@ -17,13 +17,14 @@ export default function Home() {
         <div style={{ display: 'flex', gap: 10 }}>
           <img
             className={styles.avatar}
-            src="/vercel.svg?text=GR"
+            src="/avatar/vercel.svg?text=GR"
             alt="Vercel"
           />
-          <img className={styles.avatar} src="/1" alt="Vercel" />
-          <img className={styles.avatar} src="/satori" alt="Vercel" />
-          <img className={styles.avatar} src="/nextjs" alt="Vercel" />
-          <img className={styles.avatar} src="/nuxtjs" alt="Vercel" />
+          <img className={styles.avatar} src="/avatar/1" alt="Vercel" />
+          <img className={styles.avatar} src="/avatar/satori" alt="Vercel" />
+          <img className={styles.avatar} src="/avatar/nextjs" alt="Vercel" />
+          <img className={styles.avatar} src="/avatar/nuxtjs" alt="Vercel" />
+          <img className={styles.avatar} src="/qr/hello" alt="Vercel" />
         </div>
       </main>
 
